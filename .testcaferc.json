@@ -1,0 +1,8 @@
+{
+  "skipJsErrors": true,
+  "skipUncaughtErrors": true,
+  "src": "./e2e/tests/**/*.test.ts",
+  "screenshots": {
+    "path": "./screenshots"
+  }
+}
