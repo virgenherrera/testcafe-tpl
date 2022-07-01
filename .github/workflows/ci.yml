@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: eslint Check Code Format
-        run: npm run check:format
+        run: npm run check:eslint
 
       - name: prettier Check Code Format
         run: npm run check:prettier
