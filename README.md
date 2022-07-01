@@ -1,4 +1,4 @@
-## Description
+# Description
 
 basic [TestCafe](https://testcafe.io/) framework TypeScript starter repository.
 
@@ -7,13 +7,13 @@ basic [TestCafe](https://testcafe.io/) framework TypeScript starter repository.
 1. install dependencies.
 
 ```bash
-$ npm install
+npm install
 ```
 
 2. Create `.env` file using `.env.example`  a template, e.g.
 
 ```bash
-$ cp ./env.example ./env
+cp ./env.example ./env
 ```
 
 ## launching the tests

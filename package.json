@@ -1,7 +1,7 @@
 {
-  "name": "testcafe-talk",
+  "name": "testcafe-tpl",
   "version": "1.0.0",
-  "description": "testcafe-talk",
+  "description": "testcafe-tpl",
   "license": "MIT",
   "scripts": {
     "test": "testcafe chrome:headless",
@@ -10,7 +10,9 @@
     "e2e:firefox": "testcafe firefox",
     "e2e:ie": "testcafe ie",
     "remote": "testcafe remote --qr-code",
-    "lint": "eslint \"e2e/**/*.ts\" --fix"
+    "check:eslint": "eslint \"e2e/**/*.ts\"",
+    "check:prettier": "prettier --check \"e2e/**/*.ts\"",
+    "check:ts": "tsc -noEmit"
   },
   "contributors": [
     {
